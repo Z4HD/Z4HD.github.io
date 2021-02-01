@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>手机 - 分类 - Z4HD&#39;s Blog</title>
+        <link>https://blog.z4hd.cf/categories/%E6%89%8B%E6%9C%BA/</link>
+        <description>手机 - 分类 - Z4HD&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 11 Aug 2017 19:04:15 &#43;0000</lastBuildDate><atom:link href="https://blog.z4hd.cf/categories/%E6%89%8B%E6%9C%BA/" rel="self" type="application/rss+xml" /><item>
+    <title>Termux 中安装 gevent 库</title>
+    <link>https://blog.z4hd.cf/posts/2017-08-11-install-gevent/</link>
+    <pubDate>Fri, 11 Aug 2017 19:04:15 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2017-08-11-install-gevent/</guid>
+    <description><![CDATA[<p>好像现在不需要这么麻烦了，此文章仅供存档。</p>]]></description>
+</item><item>
+    <title>个人整理的 iPhone 4S 降级至 iOS 6.1.3 的详细条件</title>
+    <link>https://blog.z4hd.cf/posts/2017-04-15-iphone4sdowngardhead/</link>
+    <pubDate>Sat, 15 Apr 2017 18:31:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2017-04-15-iphone4sdowngardhead/</guid>
+    <description><![CDATA[<p>最近搞了一台iPhone4S，准备降级至iOS6.1.3，结果各种卡sending IBSS以及255错误。在观看了许多帖子后自己整理出了一个降级的详细条件，只有满足每个条件才可能成功降级。</p>]]></description>
+</item></channel>
+</rss>

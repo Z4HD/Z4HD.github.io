@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>代码 - 分类 - Z4HD&#39;s Blog</title>
+        <link>https://blog.z4hd.cf/categories/%E4%BB%A3%E7%A0%81/</link>
+        <description>代码 - 分类 - Z4HD&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 02 Dec 2017 17:05:26 &#43;0000</lastBuildDate><atom:link href="https://blog.z4hd.cf/categories/%E4%BB%A3%E7%A0%81/" rel="self" type="application/rss+xml" /><item>
+    <title>PyInstaller打包单EXE时封装额外的资源文件</title>
+    <link>https://blog.z4hd.cf/posts/2017-12-02-pyinstaller-openbasedir/</link>
+    <pubDate>Sat, 02 Dec 2017 17:05:26 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2017-12-02-pyinstaller-openbasedir/</guid>
+    <description><![CDATA[<p>众所周知 PyInstaller 可以将 Python 脚本打包成单一的可执行文件，那么如果程序需要访问自带的外部资源时该怎么办呢？</p>]]></description>
+</item><item>
+    <title>自用倒计时js脚本</title>
+    <link>https://blog.z4hd.cf/posts/2017-07-25-a-simple-js-countdown-script/</link>
+    <pubDate>Tue, 25 Jul 2017 11:38:15 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2017-07-25-a-simple-js-countdown-script/</guid>
+    <description><![CDATA[<p>从<a href="http://jb51.net/" target="_blank" rel="noopener noreffer">jb51.net</a>上抄的脚本，本人对其略加改造。</p>]]></description>
+</item><item>
+    <title>一行HTML更改Chrome移动版浏览器地址栏颜色</title>
+    <link>https://blog.z4hd.cf/posts/2017-02-01-changechrometitlecolor/</link>
+    <pubDate>Wed, 01 Feb 2017 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2017-02-01-changechrometitlecolor/</guid>
+    <description><![CDATA[<p>添加如下代码至网页的头部即可</p>]]></description>
+</item></channel>
+</rss>

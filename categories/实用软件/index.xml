@@ -1,0 +1,42 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>实用软件 - 分类 - Z4HD&#39;s Blog</title>
+        <link>https://blog.z4hd.cf/categories/%E5%AE%9E%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
+        <description>实用软件 - 分类 - Z4HD&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 09 Sep 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://blog.z4hd.cf/categories/%E5%AE%9E%E7%94%A8%E8%BD%AF%E4%BB%B6/" rel="self" type="application/rss+xml" /><item>
+    <title>在 Ubuntu 18.04 中为 Kdenlive 安装黑色主题</title>
+    <link>https://blog.z4hd.cf/posts/2019-09-09-install-dark-theme-for-kdenlive/</link>
+    <pubDate>Mon, 09 Sep 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2019-09-09-install-dark-theme-for-kdenlive/</guid>
+    <description><![CDATA[<p>在 Gnome 桌面环境下，刚装完 Kdenlive 时如果默认为白的发丑的界面，而且“主题”菜单下还只有一个“默认”，说明你的系统还没有安装适用于KDE桌面环境的主题。</p>]]></description>
+</item><item>
+    <title>用sha1sum批量校验文件完整性</title>
+    <link>https://blog.z4hd.cf/posts/2018-04-23-sha1sum-example/</link>
+    <pubDate>Mon, 23 Apr 2018 18:57:59 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2018-04-23-sha1sum-example/</guid>
+    <description><![CDATA[<p>shell命令行下有 <code>md5sum</code> 、 <code>sha1sum</code> 和<code>sha256sum</code>等应用广泛的文件校验和实用程序，下面就以时下流行的 <code>sha1sum</code> 为例介绍如何批量创建和校验文件校验和。</p>]]></description>
+</item><item>
+    <title>在CentOS 6上使用rpm安装gettext-0.18</title>
+    <link>https://blog.z4hd.cf/posts/2017-12-09-install-gettext-centos6/</link>
+    <pubDate>Sat, 09 Dec 2017 17:44:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2017-12-09-install-gettext-centos6/</guid>
+    <description><![CDATA[Google搜索下面四个RPM包然后rpm -ivh安装即可 gettext-common-devel-0.18.1.1-7.18.noarch gettext-libs-0.18.1.1-7.18.x86_64 gettext-devel-0.18.1.1-7.18.x86_64 gettext-0.18.1.1-7.18.x86_64]]></description>
+</item><item>
+    <title>解决 vim 显示中文乱码的问题</title>
+    <link>https://blog.z4hd.cf/posts/2017-11-29-fix-termux-vim-fileencodings/</link>
+    <pubDate>Wed, 29 Nov 2017 22:16:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2017-11-29-fix-termux-vim-fileencodings/</guid>
+    <description><![CDATA[<p>虽然时至今日 Vim 对中文的支持已经改善了许多，但仍有可能遇到极端个案，不是么？</p>]]></description>
+</item><item>
+    <title>bilibili Android 5.2.0 客户端 with BiliNeta 1.9.5</title>
+    <link>https://blog.z4hd.cf/posts/2017-11-18-bilineta-client/</link>
+    <pubDate>Sat, 18 Nov 2017 09:43:28 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://blog.z4hd.cf/posts/2017-11-18-bilineta-client/</guid>
+    <description><![CDATA[已知问题： 十万甚至九万年后的今天，这个版本估计早已无法使用。 没有例如专栏、消息等花哨的新版特性 由于陈睿关闭了旧有的缓存接口（403 Forbi]]></description>
+</item></channel>
+</rss>
