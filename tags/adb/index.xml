@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>ADB - 标签 - Z4HD's Blog</title><link>https://blog.z4hd.eu.org/tags/adb/</link><description>ADB - 标签 - Z4HD's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 22 Dec 2022 19:45:48 +0800</lastBuildDate><atom:link href="https://blog.z4hd.eu.org/tags/adb/" rel="self" type="application/rss+xml"/><item><title>打包备份 Android 手机的 Internal Storage 至 PC</title><link>https://blog.z4hd.eu.org/posts/2022-12-22-backup-internal-storage-using-tar/</link><pubDate>Thu, 22 Dec 2022 19:45:48 +0800</pubDate><author>作者</author><guid>https://blog.z4hd.eu.org/posts/2022-12-22-backup-internal-storage-using-tar/</guid><description>本文探讨一种备份 Internal Storage (内置存储)1 的方法，具备下列特性： 直接将备份文件传输至PC，不产生额外的中间文件。 支持 gzip/bzip2/xz 等压缩方式2 备份文件作为tar</description></item><item><title>ADB PULL vs MTP</title><link>https://blog.z4hd.eu.org/posts/2022-12-22-adb-pull-vs-mtp/</link><pubDate>Thu, 22 Dec 2022 11:19:55 +0800</pubDate><author>作者</author><guid>https://blog.z4hd.eu.org/posts/2022-12-22-adb-pull-vs-mtp/</guid><description><![CDATA[<p>将文件从 Android 手机传输到PC的两种常用方式如下：</p>
+<ul>
+<li>MTP</li>
+<li>adb pull</li>
+</ul>
+<p>本文将从实际传输速度的角度，对上述两种传输方式进行对比。</p>]]></description></item><item><title>拯救因开启刘海屏模拟而黑屏的手机</title><link>https://blog.z4hd.eu.org/posts/2022-01-23-fix-black-screen-after-change-cutout-emulation-option/</link><pubDate>Sun, 23 Jan 2022 10:10:42 +0000</pubDate><author>作者</author><guid>https://blog.z4hd.eu.org/posts/2022-01-23-fix-black-screen-after-change-cutout-emulation-option/</guid><description><![CDATA[<div class="details admonition danger open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-skull-crossbones fa-fw"></i>危险<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">不当操作可能对您的设备和数据造成不可逆的损害。</div>
+        </div>
+    </div>
+<p>某日心血来潮，拿着刚刷入 Android12 的 OnePlus 5T，在 开发者选项-&gt;刘海屏 中随便点了一个，想着体验一下所谓“刘海屏”到底有多么的丑陋。手机卡顿了一下，屏幕一黑，再就没有亮起。</p>]]></description></item></channel></rss>
