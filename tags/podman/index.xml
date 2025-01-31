@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Podman - 标签 - Z4HD's Blog</title><link>https://blog.z4hd.eu.org/tags/podman/</link><description>Podman - 标签 - Z4HD's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 02 Mar 2024 14:25:57 +0800</lastBuildDate><atom:link href="https://blog.z4hd.eu.org/tags/podman/" rel="self" type="application/rss+xml"/><item><title>让 Podman 容器具备访问 IPv6 网络的能力</title><link>https://blog.z4hd.eu.org/posts/2024-03-02-podman-container-access-ipv6/</link><pubDate>Sat, 02 Mar 2024 14:25:57 +0800</pubDate><author>作者</author><guid>https://blog.z4hd.eu.org/posts/2024-03-02-podman-container-access-ipv6/</guid><description><![CDATA[<p>由于 Podman 默认网络 <code>podman</code> 未启用 IPv6，因此默认情况下，容器仅具备访问 IPv4 网络的能力。</p>
+<p>通过本文所述的方法可以让容器内运行的程序具备访问 IPv6 网络的能力。</p>]]></description></item><item><title>Visual Studio Code 连接远程 Podman Dev Container</title><link>https://blog.z4hd.eu.org/posts/2023-01-18-vsc-rd-in-podman/</link><pubDate>Wed, 18 Jan 2023 09:11:07 +0800</pubDate><author>作者</author><guid>https://blog.z4hd.eu.org/posts/2023-01-18-vsc-rd-in-podman/</guid><description><![CDATA[<p>使用 <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreffer">Visual Studio Code</a> 通过 SSH 连接远端服务器中使用 <a href="https://podman.io/" target="_blank" rel="noopener noreffer">Podman</a> 创建的 Dev Container。</p>
+<p>具备如下优势：</p>
+<ul>
+<li>本地除了 Visual Studio Code （含插件）和 SSH 之外无需安装任何开发依赖，避免污染本地环境。</li>
+<li>除 <code>vscode-server</code> 之外一切开发依赖均位于容器之中，避免污染远端环境。</li>
+<li>多谢 Podman 之 rootless 特性，服务器无需维持一个 root 权限的 Docker Deamon 长期运行，减少了可能的攻击面。</li>
+<li>可将开发环境部署工作写入 <code>Dockerfile</code> 和  快速重建 Dev Container</li>
+</ul>
+<p>劣势：</p>
+<ul>
+<li>远端服务器和 Dev Container 中均会被安装 <code>.vscode-server</code>。</li>
+<li>容器会常驻后台除非手动停止。</li>
+</ul>]]></description></item></channel></rss>

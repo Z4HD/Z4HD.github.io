@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Visual Studio Code - 标签 - Z4HD's Blog</title><link>https://blog.z4hd.eu.org/tags/visual-studio-code/</link><description>Visual Studio Code - 标签 - Z4HD's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 18 Jan 2023 09:11:07 +0800</lastBuildDate><atom:link href="https://blog.z4hd.eu.org/tags/visual-studio-code/" rel="self" type="application/rss+xml"/><item><title>Visual Studio Code 连接远程 Podman Dev Container</title><link>https://blog.z4hd.eu.org/posts/2023-01-18-vsc-rd-in-podman/</link><pubDate>Wed, 18 Jan 2023 09:11:07 +0800</pubDate><author>作者</author><guid>https://blog.z4hd.eu.org/posts/2023-01-18-vsc-rd-in-podman/</guid><description><![CDATA[<p>使用 <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreffer">Visual Studio Code</a> 通过 SSH 连接远端服务器中使用 <a href="https://podman.io/" target="_blank" rel="noopener noreffer">Podman</a> 创建的 Dev Container。</p>
+<p>具备如下优势：</p>
+<ul>
+<li>本地除了 Visual Studio Code （含插件）和 SSH 之外无需安装任何开发依赖，避免污染本地环境。</li>
+<li>除 <code>vscode-server</code> 之外一切开发依赖均位于容器之中，避免污染远端环境。</li>
+<li>多谢 Podman 之 rootless 特性，服务器无需维持一个 root 权限的 Docker Deamon 长期运行，减少了可能的攻击面。</li>
+<li>可将开发环境部署工作写入 <code>Dockerfile</code> 和  快速重建 Dev Container</li>
+</ul>
+<p>劣势：</p>
+<ul>
+<li>远端服务器和 Dev Container 中均会被安装 <code>.vscode-server</code>。</li>
+<li>容器会常驻后台除非手动停止。</li>
+</ul>]]></description></item><item><title>Windows 10 Visual Studio Code 界面部分模糊的解决方案</title><link>https://blog.z4hd.eu.org/posts/2022-10-16-windows10-vscode-blur/</link><pubDate>Sun, 16 Oct 2022 22:37:21 +0800</pubDate><author>作者</author><guid>https://blog.z4hd.eu.org/posts/2022-10-16-windows10-vscode-blur/</guid><description><![CDATA[<h2 id="症状">症状</h2>
+<ul>
+<li>环境：Windows 10 x64 + NVIDIA RTX 2060 Mobile</li>
+<li>Visual Studio Code 界面部分或全部变得模糊。</li>
+<li>鼠标点击模糊的位置，模糊的程度会改变。</li>
+</ul>]]></description></item><item><title>配置 Visual Studio Code 作为 Git 默认合并工具和对比工具</title><link>https://blog.z4hd.eu.org/posts/2021-01-23-config-vsc-as-defufault-mergetool/</link><pubDate>Sat, 23 Jan 2021 07:32:43 +0000</pubDate><author>作者</author><guid>https://blog.z4hd.eu.org/posts/2021-01-23-config-vsc-as-defufault-mergetool/</guid><description><![CDATA[将下列内容添加到 .gitconfig 中 # Comment: Start of &#34;Extra Block&#34; # Comment: To unlock Visual Studio Code as your Git diff and Git merge tool [merge] tool = vscode [mergetool &#34;vscode&#34;] cmd = code --wait $MERGED [diff] tool = vscode [difftool &#34;vscode&#34;] cmd = code --wait --diff $LOCAL $REMOTE # Comment: End of &#34;Extra Block&#34; 参考文献 How to use Visual Studio]]></description></item></channel></rss>
